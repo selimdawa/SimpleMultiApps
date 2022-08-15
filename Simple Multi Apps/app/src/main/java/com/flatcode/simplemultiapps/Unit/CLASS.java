@@ -1,0 +1,57 @@
+package com.flatcode.simplemultiapps.Unit;
+
+import com.flatcode.simplemultiapps.BloggerApp.Activity.BloggerAppActivity;
+import com.flatcode.simplemultiapps.BloggerApp.Activity.PageDetailsActivity;
+import com.flatcode.simplemultiapps.BloggerApp.Activity.PagesActivity;
+import com.flatcode.simplemultiapps.BloggerApp.Activity.PostDetailsActivity;
+import com.flatcode.simplemultiapps.CandyCrushGame.CandyCrushGameActivity;
+import com.flatcode.simplemultiapps.JokeApp.JokeAppActivity;
+import com.flatcode.simplemultiapps.LiveTV.Activity.CategoriesActivity;
+import com.flatcode.simplemultiapps.LiveTV.Activity.CategoryDetailsActivity;
+import com.flatcode.simplemultiapps.LiveTV.Activity.LiveTVActivity;
+import com.flatcode.simplemultiapps.LiveTV.Activity.LiveTVDetailsActivity;
+import com.flatcode.simplemultiapps.MainApp.MainActivity;
+import com.flatcode.simplemultiapps.MainApp.SplashActivity;
+import com.flatcode.simplemultiapps.MultipleDelete.MultiDeleteActivity;
+import com.flatcode.simplemultiapps.NewsApp.Activity.NewsAppActivity;
+import com.flatcode.simplemultiapps.NewsApp.Activity.NewsAppDetailsActivity;
+import com.flatcode.simplemultiapps.PdfReader.Activity.PdfReaderActivity;
+import com.flatcode.simplemultiapps.PdfReader.Activity.PdfReaderIntroActivity;
+import com.flatcode.simplemultiapps.RandomImgGenerating.ImageInfoActivity;
+import com.flatcode.simplemultiapps.RandomImgGenerating.RandomImgGeneratingActivity;
+import com.flatcode.simplemultiapps.StopWatch.StopWatchActivity;
+import com.flatcode.simplemultiapps.VideoPlayer.Activity.VideoPlayerActivity;
+import com.flatcode.simplemultiapps.WebApp.WebAppActivity;
+import com.flatcode.simplemultiapps.WebApp.WebViewActivity;
+import com.flatcode.simplemultiapps.Wordpress.Activity.WordpressActivity;
+import com.flatcode.simplemultiapps.Wordpress.Activity.WordpressDetailsActivity;
+import com.flatcode.simplemultiapps.Wordpress.Activity.WordpressFavoritesActivity;
+
+public class CLASS {
+    public static Class MAIN = MainActivity.class;
+    public static Class SPLASH = SplashActivity.class;
+    public static Class STOP_WATCH = StopWatchActivity.class;
+    public static Class RANDOM_IMG_GENERATING = RandomImgGeneratingActivity.class;
+    public static Class IMAGE_INFO = ImageInfoActivity.class;
+    public static Class BLOGGER_APP = BloggerAppActivity.class;
+    public static Class BLOGGER_PAGES = PagesActivity.class;
+    public static Class BLOGGER_PAGES_DETAILS = PageDetailsActivity.class;
+    public static Class BLOGGER_POST_DETAILS = PostDetailsActivity.class;
+    public static Class CANDY_CRUSH_GAME = CandyCrushGameActivity.class;
+    public static Class JOKE_APP = JokeAppActivity.class;
+    public static Class MULTIPLE_DELETE = MultiDeleteActivity.class;
+    public static Class WEB_APP = WebAppActivity.class;
+    public static Class WEB_VIEW = WebViewActivity.class;
+    public static Class LIVE_TV = LiveTVActivity.class;
+    public static Class LIVE_TV_CATEGORIES = CategoriesActivity.class;
+    public static Class LIVE_TV_DETAILS = LiveTVDetailsActivity.class;
+    public static Class LIVE_TV_CATEGORIES_DETAILS = CategoryDetailsActivity.class;
+    public static Class VIDEO_PLAYER = VideoPlayerActivity.class;
+    public static Class PDF_READER = PdfReaderActivity.class;
+    public static Class PDF_READER_INTRO = PdfReaderIntroActivity.class;
+    public static Class NEWS_APP = NewsAppActivity.class;
+    public static Class NEWS_APP_DETAILS = NewsAppDetailsActivity.class;
+    public static Class WORDPRESS = WordpressActivity.class;
+    public static Class WORDPRESS_DETAILS = WordpressDetailsActivity.class;
+    public static Class WORDPRESS_FAVORITES = WordpressFavoritesActivity.class;
+}
