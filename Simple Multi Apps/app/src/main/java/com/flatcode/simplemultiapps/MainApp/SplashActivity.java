@@ -16,7 +16,6 @@ public class SplashActivity extends AppCompatActivity {
 
     private ActivitySplashBinding binding;
     Context context = SplashActivity.this;
-    //FirebaseAuth auth;
 
     int time_per_second = 2;
     final static int time_per_millis = 1000;
@@ -33,19 +32,11 @@ public class SplashActivity extends AppCompatActivity {
         VOID.Logo(getBaseContext(), binding.logo);
         VOID.Intro(getBaseContext(), binding.background, binding.backWhite, binding.backBlack);
 
-        //auth = FirebaseAuth.getInstance();
-
-        new Handler().postDelayed(this::checkUser, time_final);
+        new Handler().postDelayed(this::launch, time_final);
     }
 
-    private void checkUser() {
-        //get current user, if logged in
-        //FirebaseUser firebaseUser = auth.getCurrentUser();
-        //if (firebaseUser == null) {
-        //    VOID.Intent(context, CLASS.LOGIN);
-        //} else {
+    private void launch() {
         VOID.Intent(context, CLASS.MAIN);
-        //}
         finish();
     }
 }

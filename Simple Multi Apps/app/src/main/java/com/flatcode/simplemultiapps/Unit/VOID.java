@@ -72,13 +72,27 @@ public class VOID {
     }
 
     public static void Intro(Context context, ImageView background, ImageView backWhite, ImageView backDark) {
-        SharedPreferences sharedPreferences = PreferenceManager
-                .getDefaultSharedPreferences(context);
-        if (sharedPreferences.getString("color_option", "ONE").equals("ONE")) {
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
+        if ((sharedPreferences.getString("color_option", "ONE").equals("ONE")) ||
+                (sharedPreferences.getString("color_option", "TWO").equals("TWO")) ||
+                (sharedPreferences.getString("color_option", "THREE").equals("THREE")) ||
+                (sharedPreferences.getString("color_option", "FOUR").equals("FOUR")) ||
+                (sharedPreferences.getString("color_option", "FIVE").equals("FIVE")) ||
+                (sharedPreferences.getString("color_option", "SIX").equals("SIX")) ||
+                (sharedPreferences.getString("color_option", "SEVEN").equals("SEVEN")) ||
+                (sharedPreferences.getString("color_option", "EIGHT").equals("EIGHT")) ||
+                (sharedPreferences.getString("color_option", "NINE").equals("NINE")) ||
+                (sharedPreferences.getString("color_option", "TEEN").equals("TEEN"))) {
             background.setImageResource(R.drawable.background_day);
             backWhite.setVisibility(View.VISIBLE);
             backDark.setVisibility(View.GONE);
-        } else if (sharedPreferences.getString("color_option", "NIGHT_ONE").equals("NIGHT_ONE")) {
+        } else if ((sharedPreferences.getString("color_option", "NIGHT_ONE").equals("NIGHT_ONE")) ||
+                (sharedPreferences.getString("color_option", "NIGHT_TWO").equals("NIGHT_TWO")) ||
+                (sharedPreferences.getString("color_option", "NIGHT_THREE").equals("NIGHT_THREE")) ||
+                (sharedPreferences.getString("color_option", "NIGHT_FOUR").equals("NIGHT_FOUR")) ||
+                (sharedPreferences.getString("color_option", "NIGHT_FIVE").equals("NIGHT_FIVE")) ||
+                (sharedPreferences.getString("color_option", "NIGHT_SIX").equals("NIGHT_SIX")) ||
+                (sharedPreferences.getString("color_option", "NIGHT_SEVEN").equals("NIGHT_SEVEN"))) {
             background.setImageResource(R.drawable.background_night);
             backWhite.setVisibility(View.GONE);
             backDark.setVisibility(View.VISIBLE);
@@ -86,13 +100,26 @@ public class VOID {
     }
 
     public static void Logo(Context context, ImageView background) {
-        SharedPreferences sharedPreferences = PreferenceManager
-                .getDefaultSharedPreferences(context);
-        if (sharedPreferences.getString("color_option", "ONE").equals("ONE")) {
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
+        if ((sharedPreferences.getString("color_option", "ONE").equals("ONE")) ||
+                (sharedPreferences.getString("color_option", "TWO").equals("TWO")) ||
+                (sharedPreferences.getString("color_option", "THREE").equals("THREE")) ||
+                (sharedPreferences.getString("color_option", "FOUR").equals("FOUR")) ||
+                (sharedPreferences.getString("color_option", "FIVE").equals("FIVE")) ||
+                (sharedPreferences.getString("color_option", "SIX").equals("SIX")) ||
+                (sharedPreferences.getString("color_option", "SEVEN").equals("SEVEN")) ||
+                (sharedPreferences.getString("color_option", "EIGHT").equals("EIGHT")) ||
+                (sharedPreferences.getString("color_option", "NINE").equals("NINE")) ||
+                (sharedPreferences.getString("color_option", "TEEN").equals("TEEN")))
             background.setImageResource(R.drawable.logo);
-        } else if (sharedPreferences.getString("color_option", "NIGHT_ONE").equals("NIGHT_ONE")) {
+        else if ((sharedPreferences.getString("color_option", "NIGHT_ONE").equals("NIGHT_ONE")) ||
+                (sharedPreferences.getString("color_option", "NIGHT_TWO").equals("NIGHT_TWO")) ||
+                (sharedPreferences.getString("color_option", "NIGHT_THREE").equals("NIGHT_THREE")) ||
+                (sharedPreferences.getString("color_option", "NIGHT_FOUR").equals("NIGHT_FOUR")) ||
+                (sharedPreferences.getString("color_option", "NIGHT_FIVE").equals("NIGHT_FIVE")) ||
+                (sharedPreferences.getString("color_option", "NIGHT_SIX").equals("NIGHT_SIX")) ||
+                (sharedPreferences.getString("color_option", "NIGHT_SEVEN").equals("NIGHT_SEVEN")))
             background.setImageResource(R.drawable.logo_night);
-        }
     }
 
     public static Intent plainTextShareIntent(String chooserTitle, String text) {
@@ -112,9 +139,9 @@ public class VOID {
     }
 
     public static boolean canWriteToDownloadFolder(Context context) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
             return true;
-
+        }
         return ContextCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE)
                 == PackageManager.PERMISSION_GRANTED;
     }

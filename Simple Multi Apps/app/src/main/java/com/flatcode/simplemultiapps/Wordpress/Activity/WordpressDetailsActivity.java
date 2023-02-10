@@ -109,7 +109,9 @@ public class WordpressDetailsActivity extends AppCompatActivity {
         int id = (int) getIntent().getSerializableExtra("postId");
         String title = getIntent().getSerializableExtra("postTitle").toString();
         String excerpt = getIntent().getSerializableExtra("postExcerpt").toString();
-        String content = getIntent().getSerializableExtra("postContent").toString().replaceAll("\\\\n", "").replaceAll("\\\\r", "").replaceAll("\\\\", "");
+        String content = getIntent().getSerializableExtra("postContent").toString()
+                .replaceAll("\\\\n", "").replaceAll("\\\\r", "")
+                .replaceAll("\\\\", "");
 
         //Toggle Navigation icon
         if (!isItemSelected) {
@@ -157,7 +159,7 @@ public class WordpressDetailsActivity extends AppCompatActivity {
     //Init CollapsingToolbarLayout
     private void initCollapsingToolbar(final String title) {
         final CollapsingToolbarLayout collapsingToolbar =
-                (CollapsingToolbarLayout) findViewById(R.id.post_collapsing_toolbarLayout);
+                findViewById(R.id.post_collapsing_toolbarLayout);
         collapsingToolbar.setTitle(title);
     }
 

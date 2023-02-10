@@ -1,41 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/drawable/ic_close.xml" value="0.12" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/drawable/ic_heart_unselected.xml" value="0.12" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/activity_live_tv.xml" value="0.17962962962962964" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/activity_main_new.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/activity_news_app.xml" value="0.17962962962962964" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/activity_news_app_details.xml" value="0.2" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/activity_page_details.xml" value="0.17962962962962964" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/activity_post_details.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/activity_post_details_new.xml" value="0.17962962962962964" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/activity_wordpress.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/activity_wordpress_details.xml" value="0.18" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/activity_wordpress_favorites.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/item_blogger_comment.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/item_news.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/item_news_test.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/item_video.xml" value="0.17962962962962964" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/item_wordpress.xml" value="0.17037037037037037" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/item_worprees.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/navigation_drawer.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/post_activity_content.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/toolbar_name.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/toolbar_news_app_search.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/toolbar_switch_news_app.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/layout/toolbar_wordpress.xml" value="0.20416666666666666" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/menu/add_to_favorite_menu.xml" value="0.1" />
-        <entry key="..\:/MyProjects/Java/Simple Multi Apps/Simple Multi Apps/app/src/main/res/menu/drawer_navigation_menu.xml" value="0.1" />
-      </map>
-    </option>
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
-    <option name="id" value="Android" />
+    <option name="id" value="jpab" />
   </component>
 </project>

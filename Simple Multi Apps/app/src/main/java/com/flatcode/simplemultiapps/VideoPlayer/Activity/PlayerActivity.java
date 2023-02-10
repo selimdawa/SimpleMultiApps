@@ -51,6 +51,7 @@ public class PlayerActivity extends AppCompatActivity {
         } else {
             myFiles = videoFiles;
         }
+
         String path = myFiles.get(position).getPath();
         if (path != null) {
             Uri uri = Uri.parse(path);

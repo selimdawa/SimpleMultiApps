@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -21,7 +22,7 @@ import java.util.List;
 public class WordpressAdapter extends RecyclerView.Adapter {
 
     private Context context;
-    private List<Post> posts;
+    private final List<Post> posts;
 
     //Constructor
     public WordpressAdapter(Context context, List<Post> posts) {
@@ -29,6 +30,7 @@ public class WordpressAdapter extends RecyclerView.Adapter {
         this.posts = posts;
     }
 
+    @NonNull
     @Override
     public PostViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_wordpress, parent, false);
@@ -37,7 +39,7 @@ public class WordpressAdapter extends RecyclerView.Adapter {
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
-    public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
         Post post = posts.get(position);
         final PostViewHolder postHolder = (PostViewHolder) holder;
         postHolder.setCurrentPost(post);

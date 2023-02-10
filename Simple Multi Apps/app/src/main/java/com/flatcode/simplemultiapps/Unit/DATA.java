@@ -31,7 +31,7 @@ public class DATA {
     public static String TWITTER = "twitter";
     //API & Url
     public static String API_RANDOM_IMAGE = "https://api.thecatapi.com/v1/images/search";
-    public static String IP_LIVE_TV = "192.168.143.106";                // IP My Computer
+    public static String IP_LIVE_TV = "192.168.1.2";                // IP My Computer
     public static String NEWS_API = "07f40de92d3644908496e8f9677ee838";
     public static String JOKE_URL = "https://v2.jokeapi.dev/joke/";
 }
